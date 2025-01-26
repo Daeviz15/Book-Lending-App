@@ -1,37 +1,37 @@
 body {
   background: linear-gradient(135deg, #744b0a, #000000, #000000, #1c1c1c);
 
-  color: #f0f0f0; /* Softer white for text */
+  color: #f0f0f0; 
   font-family: 'Poppins', sans-serif;
 }
 
 .navbar,
 .footer {
-  background-color: #222831; /* Neutral dark shade */
+  background-color: #222831; 
 }
 
 h1,
 h2 {
-  font-weight: 600; /* Make headings slightly bolder */
+  font-weight: 600;
 }
 
 p {
-  font-size: 0.74rem; /* Reduced font size */
+  font-size: 0.74rem; 
 }
 
 .card {
   border: none;
   background-color: black;
 
-  height: 380px; /* Balanced card height */
+  height: 380px; 
 }
 
 .card .card-title {
-  font-size: 0.9rem; /* Reduced font size */
+  font-size: 0.9rem; 
 }
 
 .card .card-text {
-  font-size: 0.75rem; /* Slightly smaller text */
+  font-size: 0.75rem; 
 }
 
 .cta {
@@ -41,7 +41,7 @@ p {
 }
 
 .btn-primary {
-  background-color: #ea9611d2; /* A vibrant shade of red */
+  background-color: #ea9611d2;
   color: #fff;
   border: none;
 font-size: 12px;
@@ -50,7 +50,7 @@ font-weight: 600;
 }
 
 .btn-primary:hover {
-  background-color: #e63946; /* Warm contrasting orange */
+  background-color: #e63946;
   color: #121212;
 }
 

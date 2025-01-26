@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Haven - Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Book Haven</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#categories">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#featured">Featured Books</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#current-borrowed">My Books</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Log Out</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="welcome">
+      <h1 id="name"></h1>
+      <p>Discover, borrow, and enjoy your favorite books.</p>
+    </header>
+
+    <div class="container my-4">
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control"
+          id="searchBar"
+          placeholder="Search for books..."
+          aria-label="Search"
+          aria-describedby="searchButton"
+        />
+        <button class="btn btn-primary" type="button" id="searchButton">
+          Search
+        </button>
+      </div>
+    </div>
+
+    <section id="categories" class="container categories">
+      <h2 class="text-center mb-4">Explore Categories</h2>
+      <div class="row text-center">
+        <div class="col-md-3">
+          <button class="btn btn-primary w-100 mb-2">Fiction</button>
+        </div>
+        <div class="col-md-3">
+          <button class="btn btn-primary w-100 mb-2">Non-Fiction</button>
+        </div>
+        <div class="col-md-3">
+          <button class="btn btn-primary w-100 mb-2">Mystery</button>
+        </div>
+        <div class="col-md-3">
+          <button class="btn btn-primary w-100 mb-2">Sci-Fi</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="featured" class="container featured">
+      <h2 class="text-center mb-4">Featured Books</h2>
+      <div class="row g-4" id="bookList">
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              src="images/Designer (25).jpeg"
+              class="card-img-top"
+              alt="Book 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">The Midnight Library</h5>
+              <p class="card-text">
+                Explore a library of infinite possibilities.
+              </p>
+              <a href="#" class="btn btn-primary">Borrow</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              src="images/Designer (27).jpeg"
+              class="card-img-top"
+              alt="Book 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Atomic Habits</h5>
+              <p class="card-text">Build life-changing habits with ease.</p>
+              <a href="#" class="btn btn-primary">Borrow</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              src="images/Designer (28).jpeg"
+              class="card-img-top"
+              alt="Book 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Becoming</h5>
+              <p class="card-text">Michelle Obama’s inspiring journey.</p>
+              <a href="#" class="btn btn-primary">Borrow</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              src="images/Designer (26).jpeg"
+              class="card-img-top"
+              alt="Book 4"
+            />
+            <div class="card-body">
+              <h5 class="card-title">The Book Thief</h5>
+              <p class="card-text">A tale of love and resilience in wartime.</p>
+              <a href="#" class="btn btn-primary">Borrow</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="featured" class="container featured">
+      <h2 class="text-center mb-4">Available soon...</h2>
+      <div class="row g-4" id="bookList">
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              src="images/Designer (25).jpeg"
+              class="card-img-top"
+              alt="Book 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">The Midnight Library</h5>
+              <p class="card-text">
+                Explore a library of infinite possibilities.
+              </p>
+              <a href="#" class="btn btn-primary">Borrow</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              src="images/Designer (27).jpeg"
+              class="card-img-top"
+              alt="Book 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Atomic Habits</h5>
+              <p class="card-text">Build life-changing habits with ease.</p>
+              <a href="#" class="btn btn-primary">Borrow</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              src="images/Designer (28).jpeg"
+              class="card-img-top"
+              alt="Book 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Becoming</h5>
+              <p class="card-text">Michelle Obama’s inspiring journey.</p>
+              <a href="#" class="btn btn-primary">Borrow</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              src="images/Designer (26).jpeg"
+              class="card-img-top"
+              alt="Book 4"
+            />
+            <div class="card-body">
+              <h5 class="card-title">The Book Thief</h5>
+              <p class="card-text">A tale of love and resilience in wartime.</p>
+              <a href="#" class="btn btn-primary">Borrow</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="current-borrowed" class="container current-borrowed">
+      <h2 class="text-center mb-4">Currently Borrowed</h2>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              src="images/Designer (25).jpeg"
+              class="card-img-top"
+              alt="Borrowed Book 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">1984</h5>
+              <p class="card-text">Due Date: Jan 30, 2025</p>
+              <a href="#" class="btn btn-primary">Renew</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Book Haven. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="home.js"></script>
+  </body>
+</html>
