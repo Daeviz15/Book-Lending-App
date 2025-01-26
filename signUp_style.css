@@ -1,0 +1,107 @@
+body {
+    background: linear-gradient(135deg, #000000, #1c1c1c, #744b0a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  .signup-container {
+    max-width: 400px;
+    width: 100%;
+    background: linear-gradient(135deg,#744b0a, #000000, #1c1c1c, );
+
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  h2 {
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  p {
+    color: #b3b3b3;
+    font-size: 0.9rem;
+  }
+  
+  .form-label {
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #e0e0e0;
+  }
+  
+  .form-control {
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #555555;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  
+  .form-control:focus {
+    background-color: #a29c9c;
+    border-color: #f39c12;
+    box-shadow: 0 0 5px rgba(243, 156, 18, 0.5);
+  }
+  #signIn{
+    background-color: #f39c12; 
+    color: #000000; 
+    font-weight: 600;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: none;
+  }
+  
+  button {
+    background-color: #f39c12;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #d87b05;
+    transform: translateY(-3px);
+  }
+  
+  .text-decoration-none {
+    color: #f39c12;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .text-decoration-none:hover {
+    color: #ffd700;
+    text-decoration: underline;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .signup-container {
+      padding: 20px;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
