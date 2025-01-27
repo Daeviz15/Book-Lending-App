@@ -70,3 +70,53 @@ img:hover {
 #availableBooks {
   margin-top: 250px;
 }
+#bookCarousel {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#bookCarousel .carousel-item img {
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.carousel-caption h5 {
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+
+.carousel-caption p {
+  font-size: 1rem;
+  color: #f0f0f0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 768px) {
+  #bookCarousel .carousel-item img {
+    max-height: 200px;
+  }
+  .carousel-caption h5 {
+    font-size: 1rem;
+  }
+  .carousel-caption p {
+    font-size: 0.875rem;
+  }
+}
